@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "codify-aiogram-bot"
+version = "0.1.0"
+description = ""
+authors = ["Narashi Kuga <orenvady@gmail.com>"]
+readme = "README.md"
+packages = [{include = "codify_aiogram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = {url = "https://github.com/aiogram/aiogram/archive/refs/tags/v3.0.0b7.zip"}
+environs = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
